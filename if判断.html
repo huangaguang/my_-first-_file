@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var number1 = prompt('请输入第一个数');
+    var number2 = prompt('请输入第二个数');
+
+        if (isNaN(number1) === false && isNaN(number2) === false) {
+            if (number1 > number2) {
+                console.log('第一个数比第二个数大是' + number1);
+            }else if(number1 < number2) {
+                console.log('第二个数比第一个数大是' + number2);
+            }else{
+                console.log('两数相等');
+            }
+        }
+</script>
+
+</html>
